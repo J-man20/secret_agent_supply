@@ -1,0 +1,14 @@
+/*Root em */
+html{
+  font-size: 18px;
+}
+
+/*Header */
+#logo{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+ #logo p{
+   flex-direction: row;
+ }
