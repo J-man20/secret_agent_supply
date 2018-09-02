@@ -56,7 +56,6 @@ html{
 /*Navigation */
 nav{
   background-color: firebrick;
-  color:white;
 }
 
 ul{
@@ -64,4 +63,8 @@ ul{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+li{
+  color:white;
 }
