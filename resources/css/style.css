@@ -102,6 +102,7 @@ li{
   display: flex;
   justify-content: space-between;
   margin: 3rem auto 4rem;
+  width: 35%;
 }
 
 .location, .hours{
@@ -111,7 +112,7 @@ li{
   background-color: black;
   color:white;
   padding:1rem 0rem 1rem 2rem;
-  width: 35%;
+  width:100%;
 }
 
 footer{
