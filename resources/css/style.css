@@ -1,6 +1,7 @@
 /*Root em */
 html{
   font-size: 18px;
+  font-family: Helvetica;
 }
 
 /*Header */
@@ -9,6 +10,24 @@ html{
   background-color: black;
   color: white;
 }
+#logo img{
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  padding: 0.66rem 0rem;
+}
+
  #logo p{
+   font-size: 1rem;
    flex-direction: row;
+   padding: 0.66rem 0rem;
+   margin-left: 1rem;
+ }
+
+ /*Banner */
+ #bike{
+   background-image: url("../images/moto.jpeg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 25rem;
  }
