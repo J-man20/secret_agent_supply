@@ -101,7 +101,7 @@ li{
 #info{
   display: flex;
   justify-content: space-between;
-  margin: 3rem auto 0rem;
+  margin: 3rem auto 4rem;
 }
 
 .location, .hours{
@@ -115,5 +115,10 @@ li{
 }
 
 footer{
-
+  background-color: black;
+  height: 5rem;
+  text-align: left;
+  color:white;
+  display: flex;
+  align-items: center;
 }
