@@ -95,22 +95,20 @@ li{
   justify-content: space-between;
 }
 
-.pen, .watch, .glasses{
-  border: 4px solid black;
-
-
-}
 
 .pen img, .watch img, .glasses img{
   height: 9rem;
   padding: 2rem 0;
+  border: 4px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .description{
   padding: 0.5rem 0rem;
   background-color: black;
   color:white;
-  
+
 }
 
 /* Location and Hours */
