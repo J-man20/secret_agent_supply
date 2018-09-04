@@ -93,6 +93,7 @@ li{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width:100%;
 }
 
 .pen, .watch, .glasses{
@@ -106,6 +107,9 @@ li{
 }
 
 .description{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
   background-color: black;
   color: white;
   padding: 0.5rem 0rem;
@@ -123,6 +127,7 @@ li{
   flex-direction: row;
   justify-content:space-between;
   margin: 3rem auto 4rem;
+  width: 100%;
 }
 
 .address, .store-hours{
@@ -136,8 +141,10 @@ li{
   background-color: black;
   color:white;
   padding:1rem 0rem 1rem 2rem;
-  width: 100%;
+  width:100%;
 }
+
+/* Footer */
 
 footer{
   background-color: black;
@@ -150,4 +157,5 @@ footer .container{
   color:white;
   display: flex;
   align-items: center;
+  width: 100%;
 }
