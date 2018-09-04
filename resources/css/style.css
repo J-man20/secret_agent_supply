@@ -177,3 +177,10 @@ footer .container{
   align-items: center;
   width: 100%;
 }
+
+@@media  only screen AND(max-width:1024px) {
+  .glasses{
+    visibility: hidden;
+  }
+
+}
