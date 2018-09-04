@@ -196,9 +196,10 @@ footer .container{
 
  .mobile-nav{
    display: block;
+   text-align: center;
  }
- 
-.desktop-nav ul{
+
+.desktop-nav{
   display: none;
 }
 
