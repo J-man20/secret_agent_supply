@@ -85,14 +85,13 @@ li{
 
 /* Images */
 #products{
- display: flex;
- justify-content: space-between;
-  margin: 3rem 0 0 0;
-
+  display: flex;
+  margin:3rem 0rem 0rem 0rem;
 }
 
 #products .container{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -102,17 +101,15 @@ li{
 }
 
 .pen img, .watch img, .glasses img{
-  display: flex;
-  justify-content: space-between;
   height: 9rem;
-  padding: 2rem 0;
+  padding: 2rem 0rem;
 }
 
 .description{
-  padding: 0.5rem 0rem;
   background-color: black;
-  color:white;
-  width:100%;
+  color: white;
+  padding: 0.5rem 0rem;
+  text-align: center;
 }
 
 /* Location and Hours */
