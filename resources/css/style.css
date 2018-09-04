@@ -84,6 +84,10 @@ li{
   color:white;
 }
 
+.mobile-nav{
+  display: none;
+}
+
 /* Images */
 #products{
   display: flex;
@@ -183,10 +187,19 @@ footer .container{
     font-size: 16px;
   }
  .glasses{
-   visibility: hidden;
+   display: none;
  }
 
  .pen, .watch{
    width:47%;
  }
+
+ .mobile-nav{
+   display: block;
+ }
+ 
+.desktop-nav ul{
+  display: none;
+}
+
 }
