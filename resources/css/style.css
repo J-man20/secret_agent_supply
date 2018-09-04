@@ -179,8 +179,14 @@ footer .container{
 }
 
 @@media  only screen AND(max-width:1024px) {
-  .glasses{
-    visibility: hidden;
+  body{
+    font-size: 16px;
   }
+ .glasses{
+   visibility: hidden;
+ }
 
+ .pen, .watch{
+   width:47%;
+ }
 }
