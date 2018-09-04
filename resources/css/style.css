@@ -203,4 +203,48 @@ footer .container{
   display: none;
 }
 
+
+}
+
+@media only screen and (max-width:470px){
+  #bike-text{
+    width:100%;
+    top:10rem;
+  }
+
+  .arrival{
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding:1rem 0 0 2rem;
+  }
+
+  .sport{
+    font-size:1rem;
+    font-weight: bold;
+    padding:0 0 0 2rem;
+  }
+
+.pen{
+  width:90%;
+}
+
+  .watch{
+    display: none;
+  }
+
+  #info .container{
+    flex-direction: column;
+  }
+
+  .address, .store-hours{
+    width: 90%;
+  }
+
+  .store-hours{
+    margin: 0.5rem 0 0 0;
+  }
+
+  footer .container{
+    justify-content: center;
+  }
 }
