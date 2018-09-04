@@ -5,23 +5,34 @@ html{
 
 }
 
+.container{
+  max-width: 960px;
+}
+
 /* Header */
-#logo{
-  display: flex;
+.company{
   background-color: black;
   color:white;
 }
-#logo img{
+
+.logo{
+  max-width: 960px;
+  display: flex;
+}
+
+.logo img{
   height: 1.5rem;
   margin-left: 0.5rem;
   padding: 0.66rem 0rem;
+  justify-content: : center;
 }
 
- #logo p{
+ .logo p{
    font-size: 1rem;
    flex-direction: row;
    padding: 0.66rem 0rem;
    margin-left: 1rem;
+   justify-content: center;
  }
 
  /* Banner */
@@ -36,7 +47,8 @@ html{
 #bike-text{
   background-color: black;
   width:20rem;
-  margin-top: 9rem;
+  position:relative;
+  top: 9rem;
 }
 
 .arrival{
