@@ -79,6 +79,10 @@ ul{
   justify-content: space-around;
 }
 
+.container li{
+  width:100%;
+}
+
 li{
   color:white;
 }
@@ -149,7 +153,6 @@ li{
 footer{
   background-color: black;
   height: 5rem;
-
 }
 
 footer .container{
